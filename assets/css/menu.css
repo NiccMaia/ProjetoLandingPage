@@ -17,12 +17,12 @@
 }
 
 .menu h1 {
-font-size: 2.3rem;
-color: var(--primary-color)
+    font-size: 2.3rem;
+    color: var(--primary-color)
 }
 
 .menu h1 a {
-  color: inherit
+    color: inherit
 }
 
 .menu ul {
@@ -37,15 +37,16 @@ color: var(--primary-color)
     color: var(--primary-color);
     position: relative;
 }
+
 .menu ul li a::after {
-  content: '';
-  position:absolute;
-  bottom: 1rem;
-  left: 50%;
-  width: 0;
-  height: 0.2rem;
-  background: var(--secondary-color);
-  transition: all 300ms ease-in-out;
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: var(--secondary-color);
+    transition: all 300ms ease-in-out;
 }
 
 .menu ul li a:hover::after {
